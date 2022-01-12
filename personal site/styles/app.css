@@ -1,0 +1,114 @@
+/*Global*/
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {   
+    font-family: "lato" , sans serif;
+}
+h1,
+h2,
+h3{
+    text-align: center;
+    padding: 10px;
+}
+p {
+    line-height: 2;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+/*utilities*/
+.bold-text {
+    font-weight: 700;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+header {
+    background-color: lightcoral;
+    height: 250px;
+}
+.header-title h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: .5in;
+}
+.header-title h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.header-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-bottom: 15px
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    color: lightcoral;
+    margin-right: 30px;
+    letter-spacing: 5px;
+    
+}
+
+nav a {
+    color: white;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+nav a:hover {
+    font-weight: 700;
+    opacity: 0.8;
+}
+/*main*/
+.my-photo {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 8px solid black;
+}
+
+.my-photo:hover {
+    transform: scale(1.5);
+}
+
+/*bio*/
+ul li {
+    font-size: 18px;
+    margin: 40px
+}
+ol lli {
+    font-size: 10px;
+    margin: 40px;
+}
+.container-2 {
+    margin: auto;
+}
+main {
+    background-color: lightcoral;
+    height: 800px;
+}
+footer {
+    background-color: black;
+}
+.container-3 {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightcoral;
+    height: 800px;
+}
